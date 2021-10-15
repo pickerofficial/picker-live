@@ -13,9 +13,5 @@ interface IPriceCalculator {
 
     function unsafeValueOfAsset(address asset, uint amount) external view returns (uint valueInBNB, uint valueInUSD);
 
-    function priceOfBunny() external view returns (uint);
-
-    function priceOfBNB() external view returns (uint);
-
     function setPrices(address[] memory assets, uint[] memory prices) external;
 }
