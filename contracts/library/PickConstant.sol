@@ -12,10 +12,9 @@ library PickConstant {
         uint totalAmount;
         uint totalPickCount;
         uint result;
-        uint creatorReward;//contract의 static으로 사용
+        uint creatorReward;
     }
 
-    //Pick에 사용되는 필드를 중복해도 된다 > interface에서 편하기위해
     struct PickReturnType {
         address creator;
         bool closed;
@@ -29,9 +28,9 @@ library PickConstant {
         uint creatorReward;
 
         uint pickId;
-        uint[] amountPerOptions; //문제에서 option별 모인 총 금액
-        uint accountEngagedAmount; //pickOf시 사용
-        uint accountEngagedIndex; //pickOf시 사용
+        uint[] amountPerOptions;
+        uint accountEngagedAmount;
+        uint accountEngagedIndex;
         bool engaged;
         bool claimed;
     }
@@ -39,7 +38,7 @@ library PickConstant {
     struct Creator {
         address account;
         uint count;
-        uint fairnessUp;//고민
+        uint fairnessUp;
         uint fairnessDown;
     }
 }

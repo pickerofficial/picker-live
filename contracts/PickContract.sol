@@ -29,15 +29,15 @@ contract PickContract is OwnableUpgradeable, ReentrancyGuardUpgradeable {
     uint public pickCount;
 
     /* ========== STATE VARIABLES ========== */
-    mapping(uint => PickConstant.Pick) public picks; //pick id별 pick mapping
-    mapping(address => PickConstant.Creator) public creators; //pick create mapping
+    mapping(uint => PickConstant.Pick) public picks;
+    mapping(address => PickConstant.Creator) public creators;
 
-    mapping(address => uint[]) public accountHistories; //유저별 pick history 관리
-    mapping(uint => mapping(address => bool)) private accountEngages;//유저가 해당 pick에 투표했는지 유무
-    mapping(uint => mapping(address => bool)) private accountClaimed;//유저가 해당 pick에 claimed 했는지 유무
+    mapping(address => uint[]) public accountHistories;
+    mapping(uint => mapping(address => bool)) private accountEngages;
+    mapping(uint => mapping(address => bool)) private accountClaimed;
 
-    mapping(uint => mapping(uint => uint)) public balancePerOption; //pick당 option별 모인 총 금액 optionBalanceOfPick -> amount -> balance
-    mapping(uint => mapping(uint => mapping(address => uint))) public accountBalancePerOption;//pick당 option당 유저가 투표한 금액//users~..
+    mapping(uint => mapping(uint => uint)) public balancePerOption;
+    mapping(uint => mapping(uint => mapping(address => uint))) public accountBalancePerOption;
 
     /* ========== MODIFIERS ========== */
     modifier onlyValidateOption(uint id, uint result) {
@@ -104,7 +104,6 @@ contract PickContract is OwnableUpgradeable, ReentrancyGuardUpgradeable {
         //        }
         //        picks[id].totalAmount = picks[id].totalAmount - loserAmount.div(100).mul(30);
         //        console.log(loserAmount.div(100).mul(30));
-        //        todo loserAmount의 30%로 gov 토크노믹스에 활용
         //                uint reserve = loserAmount.div(10);
         //                uint govVault = loserAmount.div(10);
         //                uint govMaticValut = loserAmount.div(10);
