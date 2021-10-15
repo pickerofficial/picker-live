@@ -1,0 +1,49 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3 1H6.00004V2H3V1Z" fill="#89D99C"/>
+<path d="M1.99805 2H3.99807V4H1.99805V2Z" fill="#89D99C"/>
+<path d="M1 3H2.00001V17H1V3Z" fill="#89D99C"/>
+<path d="M6 1H8.00002V2H6V1Z" fill="#509F63"/>
+<path d="M4 2H8.00005V4H4V2Z" fill="#509F63"/>
+<path d="M1.99805 4H7.99812V15H1.99805V4Z" fill="#509F63"/>
+<path d="M1.99805 15H7.99812V17H1.99805V15Z" fill="#509F63"/>
+<path d="M1.99805 17H5.9981V19H1.99805V17Z" fill="#509F63"/>
+<path d="M8 1H16.0001V19H8V1Z" fill="#247237"/>
+<path d="M17 2H18V18H17V2Z" fill="#247237"/>
+<path d="M16 1H17V19H16V1Z" fill="#247237"/>
+<path d="M18 3H19V17H18V3Z" fill="#247237"/>
+<path d="M7 16H8.00001V19H7V16Z" fill="#247237"/>
+<path d="M6 17H7.00001V19H6V17Z" fill="#247237"/>
+<path d="M5 18H6.00001V19H5V18Z" fill="#247237"/>
+<path d="M3 19H17.0002V20H3V19Z" fill="black"/>
+<path d="M3 0H17.0002V0.999999H3V0Z" fill="black"/>
+<path d="M18 2H19V3H18V2Z" fill="black"/>
+<path d="M1 2H2.00001V3H1V2Z" fill="black"/>
+<path d="M17 1H18V2H17V1Z" fill="black"/>
+<path d="M1.99805 1H2.99806V2H1.99805V1Z" fill="black"/>
+<path d="M1.99805 18H2.99806V19H1.99805V18Z" fill="black"/>
+<path d="M1 17H2.00001V18H1V17Z" fill="black"/>
+<path d="M17 19H18V18H17V19Z" fill="black"/>
+<path d="M18 18H19V17H18V18Z" fill="black"/>
+<path d="M0 3H1.00001V17H0V3Z" fill="black"/>
+<path d="M19 3H20V17H19V3Z" fill="black"/>
+<rect x="5" y="10" width="1" height="1" fill="white"/>
+<rect x="6" y="11" width="1" height="1" fill="white"/>
+<rect x="7" y="12" width="1" height="1" fill="white"/>
+<rect x="8" y="13" width="1" height="1" fill="white"/>
+<rect x="9" y="12" width="1" height="1" fill="white"/>
+<rect x="10" y="11" width="1" height="1" fill="white"/>
+<rect x="11" y="10" width="1" height="1" fill="white"/>
+<rect x="12" y="9" width="1" height="1" fill="white"/>
+<rect x="13" y="8" width="1" height="1" fill="white"/>
+<rect x="14" y="7" width="1" height="1" fill="white"/>
+<rect x="5" y="9" width="1" height="1" fill="white"/>
+<rect x="6" y="10" width="1" height="1" fill="white"/>
+<rect x="7" y="11" width="1" height="1" fill="white"/>
+<rect x="8" y="12" width="1" height="1" fill="white"/>
+<rect x="9" y="11" width="1" height="1" fill="white"/>
+<rect x="10" y="10" width="1" height="1" fill="white"/>
+<rect x="11" y="9" width="1" height="1" fill="white"/>
+<rect x="12" y="8" width="1" height="1" fill="white"/>
+<rect x="13" y="7" width="1" height="1" fill="white"/>
+<rect x="14" y="6" width="1" height="1" fill="white"/>
+</svg>
